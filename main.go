@@ -13,3 +13,7 @@ func main() {
 func home(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Hello World!13333")
 }
+
+func run() {
+	fmt.Println("Hello")
+}
